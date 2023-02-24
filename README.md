@@ -30,12 +30,12 @@ Logistic Regression  |     0.693571    |
 
 For RFS, mean absolute error was calculated.
 
-Mean absolute error :
+Mean absolute error cross-validation score :
        Model         | Mean Absolute Error  |
 -------------------  | ---------------      |
-Random Forest        |     0.703961         |
-SVC                  |     0.754221         |
-Logistic Regression  |     0.693571         |
+Random Forest        |  19.118183421266234  |
+SVM                  |  19.363132471253074  |
+Lasso Regression     |  19.881346769729124  |
 
 
 ## Testing Results on Independent Test Set
