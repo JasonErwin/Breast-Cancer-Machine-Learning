@@ -21,21 +21,21 @@ No | Packages      |
 
 For PCR, a confusion matrix was plot which represents the actual postive, actual negative, false positive and false negative predictions. In addition, an receiver opearting characteristic curve (ROC) curve was generated. 
 
-K-fold Cross Validation Accuracy Score :
-       Model         | Accuract Score  |
--------------------  | --------------- |
-Random Forest        |     0.703961    |
-SVC                  |     0.754221    |
-Logistic Regression  |     0.693571    |
+K-fold Cross Validation Classification Accuracy  :
+       Model         | Classification Accuracy |
+-------------------  | ---------------------   |
+Random Forest        |     0.71                |
+SVC                  |     0.74                |
+Logistic Regression  |     0.52                |
 
 For RFS, mean absolute error was calculated.
 
 Mean absolute error cross-validation score :
        Model         | Mean Absolute Error  |
 -------------------  | ---------------      |
-Random Forest        |  19.118183421266234  |
-SVM                  |  19.363132471253074  |
-Lasso Regression     |  19.881346769729124  |
+Random Forest        |  19.16               |
+SVM                  |  19.36               |
+Lasso Regression     |  19.88               |
 
 
 ## Testing Results on Independent Test Set
